@@ -1,14 +1,15 @@
-{
-    "name": "tal",
-    "owner": {
+{                                                                                                                                                              "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",                                                                                      "name": "tal",                                                                                                                                               "description": "AI Skill to report stats per file types and per language used in a repo",                                                                    "owner": {                                                                                                                                               
       "name": "bbeda"
     },
     "plugins": [
       {
         "name": "tal",
-        "source": ".",
         "description": "AI Skill to report stats per file types and per language used in a repo",
-        "version": "1.0.0"
+        "version": "1.0.0",
+        "author": {
+          "name": "bbeda"
+        },
+        "source": "./plugins/tal"
       }
     ]
   }
