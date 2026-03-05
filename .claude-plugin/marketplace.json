@@ -1,0 +1,14 @@
+{
+    "name": "tal",
+    "owner": {
+      "name": "bbeda"
+    },
+    "plugins": [
+      {
+        "name": "tal",
+        "source": ".",
+        "description": "AI Skill to report stats per file types and per language used in a repo",
+        "version": "1.0.0"
+      }
+    ]
+  }
